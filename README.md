@@ -8,6 +8,7 @@ Authors:
 - Ioane Kapandze
 
 Summary:
+
 This project, named CareVoice, aimed to develop an end-to-end system for patient feedback and satisfaction surveys, addressing a critical need in the healthcare sector. Patient feedback is pivotal in healthcare, as it helps medical staff enhance their services and ensures that patient voices play a significant role in healthcare delivery improvements.
 
 ## File Structure
