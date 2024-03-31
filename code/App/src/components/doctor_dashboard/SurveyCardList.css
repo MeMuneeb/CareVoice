@@ -1,0 +1,12 @@
+.welcome-message {
+  text-align: center;
+  margin: 64px 0;
+}
+
+.survey-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 1rem;
+}

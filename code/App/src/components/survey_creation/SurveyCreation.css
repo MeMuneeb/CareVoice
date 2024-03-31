@@ -1,0 +1,54 @@
+/* src/components/Survey.css */
+.Survey {
+  /* text-align: center; */
+  max-width: 40rem;
+  margin: 50px auto;
+  padding: 2rem; /* Add padding for better aesthetics */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  background-color: #fff; /* Optional: Set a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
+/* 
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+} */
+
+.option-element {
+  margin-left: 1rem;
+}
+
+.option-container {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+/* .remove-option-btn {
+  background-color: #ff5252;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+} */
+
+/* button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+   */

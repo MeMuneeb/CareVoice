@@ -1,0 +1,78 @@
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.login_field {
+  width: 20rem;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.login_button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.login_rect {
+  width: 24rem; /* Adjust the width as per your design */
+  padding: 2rem; /* Add padding for better aesthetics */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  background-color: #fff; /* Optional: Set a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
+
+.login_container {
+  width: auto;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}

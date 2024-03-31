@@ -1,0 +1,52 @@
+const BASE_URL = "http://localhost:3000";
+const LOGIN_URL = BASE_URL + "/api/v1/users/login";
+const SIGNUP_URL = BASE_URL + "/api/v1/users/signup";
+const USER_URL = BASE_URL + "/api/v1/users";
+const USER_LOGOUT_URL = USER_URL + "/logout";
+const SURVEY_URL = BASE_URL + "/api/v1/surveys";
+
+const VISIT_URL = BASE_URL + "/api/v1/visits";
+const RESPONSES_URL = BASE_URL + "/api/v1/responses";
+const GET_SURVEY_TO_FILL_URL = BASE_URL + "/api/v1/surveys/getForFeedback";
+
+const PAGE_LOGIN_RELATIVE_URL = "/login";
+const PAGE_SIGNUP_RELATIVE_URL = "/register";
+const PAGE_DOCTOR_RELATIVE_URL = "/doctor";
+const PAGE_PATIENT_RELATIVE_URL = "/patient";
+const PAGE_SURVEY_CREATION_RELATIVE_URL =
+  PAGE_DOCTOR_RELATIVE_URL + "/customizesurvey";
+const PAGE_SURVEY_FILL_RELATIVE_URL = PAGE_PATIENT_RELATIVE_URL + "/fillsurvey";
+const PAGE_VIEW_FEEDBACK_RELATIVE_URL =
+  PAGE_DOCTOR_RELATIVE_URL + "/viewfeedback";
+
+const QN_TYPE_MCQ = "multiple choice";
+const QN_TYPE_TEXT = "text based";
+const QN_MAX_CHAR = 250;
+
+const ANONYMOUS = "Anonymous";
+
+const PROHIBITED_NAMES = [ANONYMOUS];
+
+export {
+  BASE_URL,
+  LOGIN_URL,
+  SIGNUP_URL,
+  SURVEY_URL,
+  USER_URL,
+  USER_LOGOUT_URL,
+  VISIT_URL,
+  RESPONSES_URL,
+  GET_SURVEY_TO_FILL_URL,
+  PAGE_DOCTOR_RELATIVE_URL,
+  PAGE_PATIENT_RELATIVE_URL,
+  PAGE_LOGIN_RELATIVE_URL,
+  PAGE_SIGNUP_RELATIVE_URL,
+  PAGE_SURVEY_CREATION_RELATIVE_URL,
+  PAGE_SURVEY_FILL_RELATIVE_URL,
+  PAGE_VIEW_FEEDBACK_RELATIVE_URL,
+  QN_TYPE_MCQ,
+  QN_TYPE_TEXT,
+  QN_MAX_CHAR,
+  ANONYMOUS,
+  PROHIBITED_NAMES,
+};
